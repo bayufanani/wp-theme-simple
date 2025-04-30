@@ -6,3 +6,37 @@ Description: Theme Bayu
 Version: 1.0
 
 */
+.banner,
+nav {
+    background-color: #f7f8fa;
+}
+
+.how-does-it-works {
+    margin: 1rem auto;
+}
+
+.list-works {
+    display: grid;
+    grid: auto / repeat(auto-fit, minmax(200px, 1fr));
+}
+.work {
+    max-width: 300px;
+    margin: auto;
+    text-align: left;
+}
+
+.footer {
+    display: grid;
+    grid: auto / repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.footer-item {
+    max-width: 250px;
+}
+
+.contact-us {
+    padding: 4rem 1rem;
+    text-align: center;
+    background-image: url("./img/gdpr.jpg");
+    background-size: cover;
+}
