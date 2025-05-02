@@ -40,3 +40,28 @@ nav {
     background-image: url("./img/gdpr.jpg");
     background-size: cover;
 }
+p {
+    color: #888888;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #222222;
+}
+.usecase {
+    margin: auto;
+}
+.usecase-img {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+img {
+    max-width: 100%;
+}

@@ -14,7 +14,7 @@
                 </form>
             </div>
             <div class="footer-item">
-                <h3>Out Guidelines</h3>
+                <h3>Our Guidelines</h3>
                 <!-- mod by customizer -->
             </div>
             <div class="footer-item">

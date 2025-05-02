@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="sticky-top">
         <div class="container">
             <div class="d-flex w-100 justify-content-between align-items-center">
                 <div class="brand">

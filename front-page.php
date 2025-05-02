@@ -45,20 +45,20 @@
 <section>
     <div class="container">
         <div class="row align-items-center">
-            <div class="col mx-4">
+            <div class="col-md mx-4">
                 <h2>We Offer a Full Range of Digital Marketing Services!</h2>
                 <p>Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
                 <p><strong>Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer</strong></p>
             </div>
-            <div class="col"><img src="<?php echo get_template_directory_uri(); ?>/img/Group1.png" alt=""></div>
+            <div class="col-md text-center"><img src="<?php echo get_template_directory_uri(); ?>/img/Group1.png" alt=""></div>
         </div>
     </div>
 </section>
 <section>
     <div class="container">
         <div class="row align-items-center">
-            <div class="col"><img src="<?php echo get_template_directory_uri(); ?>/img/Group2.png" alt=""></div>
-            <div class="col mx-4">
+            <div class="col-md text-center order-2 order-md-1"><img src="<?php echo get_template_directory_uri(); ?>/img/Group2.png" alt=""></div>
+            <div class="col-md mx-4 order-1 order-md-2">
                 <h2>Leading Digital Agency for Business Solution.</h2>
                 <p>Power-packed with impressive features and well-optimized, this template is designed to provide the best performance in all circumstances.</p>
                 <p><strong>Its smart features make it a powerful stand-alone website building tool.</strong></p>
@@ -68,17 +68,52 @@
 </section>
 <section>
     <div class="container">
-        <h1>Our case studies</h1>
-        <p>Lorem ipsum dolor sit amet, tincidunt vestibulum.</p>
-        <div class="list-usecases">
-            <!-- usecase biasa post -->
+        <div class="text-center">
+            <h1>Our case studies</h1>
+            <p>Lorem ipsum dolor sit amet, tincidunt vestibulum.</p>
+        </div>
+        <div class="list-usecases row text-center">
+            <div class="usecase col-md-6 col-lg">
+                <div class="usecase-img bg-primary">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/uc1.svg" alt="">
+                </div>
+                <div class="usecase-desc">
+                    <h5>Online Marketing</h5>
+                    <p>Seo, Marketing</p>
+                </div>
+            </div>
+            <div class="usecase col-md-6 col-lg">
+                <div class="usecase-img bg-warning">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/uc2.svg" alt="">
+                </div>
+                <div class="usecase-desc">
+                    <h5>Web Development</h5>
+                    <p>Developing, Designing</p>
+                </div>
+            </div>
+            <div class="usecase col-md-6 col-lg">
+                <div class="usecase-img bg-success"><img src="<?php echo get_template_directory_uri(); ?>/img/uc3.svg" alt=""></div>
+                <div class="usecase-desc">
+                    <h5>Web Designing</h5>
+                    <p>Designing, Developing</p>
+                </div>
+            </div>
+            <div class="usecase col-md-6 col-lg">
+                <div class="usecase-img bg-danger"><img src="<?php echo get_template_directory_uri(); ?>/img/uc4.svg" alt=""></div>
+                <div class="usecase-desc">
+                    <h5>Software Development</h5>
+                    <p>Developing, Designing</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 <section>
     <div class="container">
-        <h1>What our customers have to say</h1>
-        <p>Lorem ipsum dolor sit amet, tincidunt vestibulum.</p>
+        <div class="text-center">
+            <h1>What our customers have to say</h1>
+            <p>Lorem ipsum dolor sit amet, tincidunt vestibulum.</p>
+        </div>
         <!-- customer owl carrousel -->
     </div>
 </section>
@@ -91,13 +126,4 @@
         </div>
     </div>
 </section>
-<?php
-while (have_posts()) {
-    the_post();
-?>
-    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-<?php
-}
-?>
-
 <?php get_footer(); ?>
