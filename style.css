@@ -65,3 +65,28 @@ h6 {
 img {
     max-width: 100%;
 }
+.splide-item {
+    text-align: center;
+}
+.splide__pagination__page {
+    background-color: var(--bs-primary);
+    transition: all 0.3s ease-in-out;
+    border: 0 solid transparent;
+}
+
+.splide__pagination__page.is-active {
+    background-color: white;
+    border: 1px solid var(--bs-primary);
+}
+
+.splide-item-divider {
+    height: 5px;
+    width: 20%;
+    margin: auto;
+}
+.splide-item:nth-child(odd) .splide-item-divider {
+    background-color: var(--bs-dark);
+}
+.splide-item:nth-child(even) .splide-item-divider {
+    background-color: var(--bs-primary);
+}

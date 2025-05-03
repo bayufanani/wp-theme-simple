@@ -165,7 +165,7 @@
                             </div>
                             <p class="splide-item-text"><?php echo esc_html($item['text']) ?></p>
                             <div class="splide-item-divider"></div>
-                            <p class="splide-item-name"><?php echo esc_html($item['name']) ?></p>
+                            <h4 class="splide-item-name"><?php echo esc_html($item['name']) ?></h4>
                             <p class="splide-item-job"><?php echo esc_html($item['job']) ?></p>
                         </li>
                     <?php
