@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <nav class="sticky-top">
+    <nav class="sticky-top shadow-sm p-2" <?php echo is_admin_bar_showing() ? 'style="top: 32px"' : ''; ?>>
         <div class="container">
             <div class="d-flex w-100 justify-content-between align-items-center">
                 <div class="brand">

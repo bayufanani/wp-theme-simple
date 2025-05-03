@@ -114,7 +114,66 @@
             <h1>What our customers have to say</h1>
             <p>Lorem ipsum dolor sit amet, tincidunt vestibulum.</p>
         </div>
-        <!-- customer owl carrousel -->
+        <div class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <?php
+                    $carousel_item = array(
+                        array(
+                            "img" => "face1.jpg",
+                            "text" => "Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.",
+                            "name" => "Codey Lamber",
+                            "job" => "Marketing Manager"
+                        ),
+                        array(
+                            "img" => "face2.jpg",
+                            "text" => "Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.",
+                            "name" => "Tony Martinez",
+                            "job" => "Marketing Manager"
+                        ),
+                        array(
+                            "img" => "face3.jpg",
+                            "text" => "Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.",
+                            "name" => "Sophia Armstrong",
+                            "job" => "Marketing Manager"
+                        ),
+                        array(
+                            "img" => "face4.jpg",
+                            "text" => "Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.",
+                            "name" => "Codey Lamber",
+                            "job" => "Marketing Manager"
+                        ),
+                        array(
+                            "img" => "face5.jpg",
+                            "text" => "Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.",
+                            "name" => "Tony Martinez",
+                            "job" => "Marketing Manager"
+                        ),
+                        array(
+                            "img" => "face6.jpg",
+                            "text" => "Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.",
+                            "name" => "Sophia Armstrong",
+                            "job" => "Marketing Manager"
+                        ),
+                    );
+                    foreach ($carousel_item as $item) {
+                    ?>
+
+                        <li class="splide-item splide__slide">
+                            <div class="splide-img">
+                                <img src="<?php echo get_template_directory_uri() . "/img/" . $item["img"]; ?>" alt="">
+                            </div>
+                            <p class="splide-item-text"><?php echo esc_html($item['text']) ?></p>
+                            <div class="splide-item-divider"></div>
+                            <p class="splide-item-name"><?php echo esc_html($item['name']) ?></p>
+                            <p class="splide-item-job"><?php echo esc_html($item['job']) ?></p>
+                        </li>
+                    <?php
+                    }
+                    ?>
+                </ul>
+            </div>
+        </div>
     </div>
 </section>
 <section>
