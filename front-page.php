@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="banner">
+<div class="banner pt-4">
     <div class="container text-center">
         <h1>Search engine optimisation &
             Marketing.</h1>
@@ -12,7 +12,7 @@
         <img src="<?php echo get_template_directory_uri(); ?>/img/hero.svg" alt="">
     </div>
 </div>
-<div class="how-does-it-works">
+<div class="how-does-it-works py-5">
     <div class="container text-center">
         <h2>How Does It Works</h2>
         <p>One theme that serves as an easy-to-use operational toolkit
@@ -66,13 +66,13 @@
         </div>
     </div>
 </section>
-<section>
+<section class="py-5">
     <div class="container">
         <div class="text-center">
             <h1>Our case studies</h1>
             <p>Lorem ipsum dolor sit amet, tincidunt vestibulum.</p>
         </div>
-        <div class="list-usecases row text-center">
+        <div class="list-usecases row text-center py-5">
             <div class="usecase col-md-6 col-lg">
                 <div class="usecase-img bg-primary">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/uc1.svg" alt="">
@@ -108,7 +108,7 @@
         </div>
     </div>
 </section>
-<section>
+<section class="py-5">
     <div class="container">
         <div class="text-center">
             <h1>What our customers have to say</h1>
@@ -159,7 +159,7 @@
                     foreach ($carousel_item as $item) {
                     ?>
 
-                        <li class="splide-item splide__slide">
+                        <li class="splide-item splide__slide py-5">
                             <div class="splide-img">
                                 <img src="<?php echo get_template_directory_uri() . "/img/" . $item["img"]; ?>" alt="">
                             </div>
@@ -176,7 +176,7 @@
         </div>
     </div>
 </section>
-<section>
+<section class="py-5">
     <div class="container">
         <div class="contact-us">
             <h1>Do you have any projects?</h1>

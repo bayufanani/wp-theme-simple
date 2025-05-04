@@ -5,5 +5,6 @@ let options = {
     snap: true,
     interval: 3000,
     arrows: false,
+    gap: '1rem'
 };
 new Splide('.splide', options).mount(); 

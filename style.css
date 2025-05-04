@@ -90,3 +90,13 @@ img {
 .splide-item:nth-child(even) .splide-item-divider {
     background-color: var(--bs-primary);
 }
+.splide-item {
+    background-color: #f1f9ff;
+}
+.splide__pagination {
+    bottom: unset;
+}
+.splide-img img {
+    overflow: hidden;
+    border-radius: 50%;
+}

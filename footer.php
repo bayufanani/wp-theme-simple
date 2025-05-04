@@ -1,6 +1,6 @@
 <footer>
     <div class="container">
-        <div class="footer">
+        <div class="footer py-5">
             <div class="footer-item">
                 <h3><?php bloginfo('name') ?></h3>
                 <p><?php bloginfo('admin_email') ?></p>
