@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="banner pt-4">
+<div class="banner pt-4" id="home">
     <div class="container text-center">
         <h1>Search engine optimisation &
             Marketing.</h1>
@@ -12,28 +12,28 @@
         <img src="<?php echo get_template_directory_uri(); ?>/img/hero.svg" alt="">
     </div>
 </div>
-<div class="how-does-it-works py-5">
+<div class="how-does-it-works py-5" id="about">
     <div class="container text-center">
         <h2>How Does It Works</h2>
         <p>One theme that serves as an easy-to-use operational toolkit
             that meets customer's needs.</p>
         <div class="list-works">
             <div class="work">
-                <img src="#" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/speed.svg" alt="">
                 <h3>Speed
                     Optimisation</h3>
                 <p>Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
                 <a href="#">Read More</a>
             </div>
             <div class="work">
-                <img src="#" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/seo.svg" alt="">
                 <h3>SEO and
                     Backlinks</h3>
                 <p>Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
                 <a href="#">Read More</a>
             </div>
             <div class="work">
-                <img src="#" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/content.svg" alt="">
                 <h3>Content
                     Marketing</h3>
                 <p>Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
@@ -42,7 +42,7 @@
         </div>
     </div>
 </div>
-<section>
+<section id="blog">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md mx-4">
@@ -53,8 +53,6 @@
             <div class="col-md text-center"><img src="<?php echo get_template_directory_uri(); ?>/img/Group1.png" alt=""></div>
         </div>
     </div>
-</section>
-<section>
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md text-center order-2 order-md-1"><img src="<?php echo get_template_directory_uri(); ?>/img/Group2.png" alt=""></div>
@@ -65,9 +63,7 @@
             </div>
         </div>
     </div>
-</section>
-<section class="py-5">
-    <div class="container">
+    <div class="container py-5">
         <div class="text-center">
             <h1>Our case studies</h1>
             <p>Lorem ipsum dolor sit amet, tincidunt vestibulum.</p>
@@ -108,7 +104,7 @@
         </div>
     </div>
 </section>
-<section class="py-5">
+<section class="py-5" id="testimonials">
     <div class="container">
         <div class="text-center">
             <h1>What our customers have to say</h1>
@@ -175,9 +171,7 @@
             </div>
         </div>
     </div>
-</section>
-<section class="py-5">
-    <div class="container">
+    <div class="container py-5">
         <div class="contact-us">
             <h1>Do you have any projects?</h1>
             <h1>Contact us</h1>
