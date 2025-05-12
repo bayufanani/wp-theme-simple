@@ -5,6 +5,11 @@ let options = {
     snap: true,
     interval: 3000,
     arrows: false,
-    gap: '1rem'
+    gap: '1rem',
+    breakpoints: {
+        640: {
+            perPage: 1,
+        },
+    }
 };
 new Splide('.splide', options).mount(); 
