@@ -12,4 +12,11 @@ let options = {
         },
     }
 };
-new Splide('.splide', options).mount(); 
+new Splide('.splide', options).mount();
+
+document.querySelector('#nav-mobile').addEventListener('click', () => {
+    document.querySelector('.nav').classList.toggle('active');
+});
+document.querySelector('#nav-mobile-close').addEventListener('click', () => {
+    document.querySelector('.nav').classList.remove('active');
+});

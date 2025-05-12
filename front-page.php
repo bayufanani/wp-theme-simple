@@ -45,7 +45,7 @@
 <section id="blog">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md mx-4">
+            <div class="col-md">
                 <h2>We Offer a Full Range of Digital Marketing Services!</h2>
                 <p>Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
                 <p><strong>Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer</strong></p>
@@ -56,7 +56,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md text-center order-2 order-md-1"><img src="<?php echo get_template_directory_uri(); ?>/img/Group2.png" alt=""></div>
-            <div class="col-md mx-4 order-1 order-md-2">
+            <div class="col-md order-1 order-md-2">
                 <h2>Leading Digital Agency for Business Solution.</h2>
                 <p>Power-packed with impressive features and well-optimized, this template is designed to provide the best performance in all circumstances.</p>
                 <p><strong>Its smart features make it a powerful stand-alone website building tool.</strong></p>
